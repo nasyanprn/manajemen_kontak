@@ -1,40 +1,51 @@
-# PHP_SistemManajemenKontak
-Fadhil Akbar (2315061037)
+# Sistem Peminjaman Kontak (Soft Pink)
 
-Sistem ini adalah aplikasi sederhana berbasis PHP yang digunakan untuk mengelola data kontak secara praktis melalui fitur CRUD (Create, Read, Update, Delete). Aplikasi ini tidak menggunakan database, tetapi memanfaatkan PHP Session untuk menyimpan data selama sesi berjalan, sehingga cocok untuk pembelajaran dan demonstrasi konsep dasar CRUD di PHP.
+Aplikasi CRUD Kontak sederhana menggunakan **PHP & Session** dengan tampilan **soft pink** modern.
 
-Fitur Utama
-1. Tambah Kontak – Menambahkan data kontak berupa nama, email, dan nomor telepon.
-2. Edit Kontak – Memperbarui informasi kontak secara langsung.
-3. Hapus Kontak – Menghapus data kontak yang tidak diperlukan.
-4. Tampilan Daftar Kontak – Menampilkan seluruh kontak yang tersimpan di session.
-5. Desain Modern – Menggunakan Bootstrap 5 agar tampilan lebih rapi dan responsif.
+## Fitur
+- Login / Logout (Username: `admin`, Password: `admin2811`)
+- Dashboard full soft pink dengan sidebar dan statistik
+- Tambah, Edit, Hapus Kontak
+- Session management
 
-Struktur File: 
-sistem/
+## Struktur Folder
+peminjaman_kontak/
+├── index.php
+├── logout.php
+├── auth/
+│ └── cek_login.php
+├── kontak/
+│ ├── index.php
+│ ├── tambah.php
+│ ├── edit.php
+│ └── hapus.php
+└── hasil_website/
+├── 1.png
+├── 2.png
+├── 3.png
+├── 4.png
+└── 5.png
 
-── index.php       → Menampilkan daftar kontak  
-── tambah.php      → Form untuk menambahkan kontak  
-── edit.php        → Form untuk mengedit kontak  
-── hapus.php       → Menghapus kontak berdasarkan ID  
-── README.md       → Dokumentasi proyek  
+markdown
+Copy code
 
-Teknologi yang Digunakan
-1. PHP 7/8
-2. Bootstrap 5
-3. Session untuk penyimpanan data sementara
+## Cara Menjalankan
+1. Copy folder project ke `htdocs` (XAMPP) atau server web lain  
+2. Jalankan Apache  
+3. Buka browser dan akses: `http://localhost/peminjaman_kontak`  
+4. Login menggunakan:  
+Username: admin
+Password: admin2811
 
-Cara Menjalankan
-1. Pastikan Anda sudah menginstall XAMPP / Laragon / PHP Server lainnya.
-2. Taruh folder proyek ini ke dalam htdocs atau direktori server Anda.
-3. Jalankan server Apache.
-   
-Akses aplikasi melalui browser:
-http://localhost/sistem/
+scss
+Copy code
 
-Catatan
-1. Data kontak tidak permanen, karena menggunakan session; data akan hilang saat browser ditutup atau session berakhir.
-2. Proyek ini dirancang sebagai latihan implementasi CRUD dasar, form handling, dan validasi sederhana di PHP.
+## Screenshot Hasil Website
 
-Kontributor:
-Fadhil Akbar – Developer
+![Hasil Website 1](hasil_website/1.png)
+![Hasil Website 2](hasil_website/2.png)
+![Hasil Website 3](hasil_website/3.png)
+![Hasil Website 4](hasil_website/4.png)
+![Hasil Website 5](hasil_website/5.png)
+
+by:NAISYAH NOPRIANI
