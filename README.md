@@ -1,4 +1,4 @@
-# Sistem Peminjaman Kontak 
+# Sistem Manajemen Kontak 
 
 Aplikasi CRUD Kontak sederhana menggunakan **PHP & Session** dengan tampilan **soft pink** modern.
 
